@@ -8,34 +8,46 @@
   <meta name="author" content="Ethan Richert">
   <meta property="article1:published_time" content="2021-10-13" />
   <meta property="article2:published_time" content="2021-10-12" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
   <title>Ethan's Best Blog</title>
 </head>
 <body>
   <header>
-    <h1>Ethan's Blog</h1>
-    <p>Ranting about documentation that doesn't exist.</p>
-    <p>I'll write this up so you don't have to spend 3 hours pieces together reddit articles like I did.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="title">Ethan's Blog</a></li>
+        <li><a href="index.html" class="item">Home</a></li>
+        <li><a href="about.html" class="item">About</a></li>
+        <li><a href="contact.html" class="item">Contact</a></li>
+        <li class="tagline"><a>Mostly ranting about documentation that doesn't exist</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Blog</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-  <h2>About Me!</h2>
-  <p>My name is Ethan Richert, I'm a 20 year old MSU undergrad who just needs a place to rant about people and things at work. That's where this website comes in.</p>
-  <p>This site helps me do a couple of things</p>
-  <ul class="why-this-exists">
-    <li>Rant about customers</li>
-    <li>Rant about technology</li>
-    <li>Make overly sarcastic comments</li>
-    <li>Rant about customers some more</li>
-  </ul>
-  <p>Welcome along for the ride</p>
-  <img src="mr_robot.gif" alt="eliot">
+  <div class="content">
+    <h2>About Me!</h2>
+    <p>My name is Ethan Richert, I'm a 20 year old MSU undergrad who just needs a place to rant about people and things at work. That's where this website comes in.</p>
+    <p>This site helps me do a couple of things</p>
+    <ul class="why-this-exists">
+      <li>Rant about customers</li>
+      <li>Rant about technology</li>
+      <li>Make overly sarcastic comments</li>
+      <li>Rant about customers some more</li>
+    </ul>
+    <p>Welcome along for the ride</p>
+    <img src="mr_robot.gif" alt="eliot">
+  </div>
+  <div class="footer">
+    <form>
+      <label>Sign up for our nonsense newsletter:
+        <input type="text">
+      </label>
+      <button>Subscribe!</button>
+    </form>
+  </div> 
 </body>
 </html>

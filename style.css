@@ -1,0 +1,131 @@
+/* Color Scheme
+
+Grey #17252A
+Blue #2B7A78
+Teal #3AAFA9
+Almost White #DEF2F1
+White #FEFFFF
+
+*/
+
+body {
+    margin: 0;
+    background-color: #FEFFFF;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #2B7A78;
+}
+nav li {
+    float: left;
+}
+
+.tagline {
+    float: right;
+    display: block;
+    color: #FEFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav .item{
+    display: block;
+    color: #17252A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav .item:hover {
+    background-color: #DEF2F1;
+  }
+
+nav .title{
+    display: block;
+    color: #FEFFFF;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Debate Adding In The Future
+nav .active {
+    background-color: #2B7A78;
+  }*/
+
+.content {
+    margin: 10px;
+}
+
+.article {
+    padding: 10px;
+    background-color: #DEF2F1; 
+    border-radius: 10px;
+    min-height: 250px;
+}
+
+.article h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* https://stackoverflow.com/a/15556982 */
+.article h2 span { 
+    font-size:16px;
+    font-weight: normal;
+    float: right;
+}
+
+.article img {
+    border-radius: 25px;
+    float: left;
+    margin: 20px 20px 20px;
+    height: 200px;
+    
+}
+
+.article p {
+    padding: 15px 0 10px 0;
+    margin: 0;
+}
+
+/* Add styling for tables */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2B7A78;
+    color: #17252A;
+    text-align: left;   
+}
+ .footer label {
+    padding: 14px 16px;
+ }
+
+/* Add additonal styling here */
+.footer button {
+     background-color: #DEF2F1;
+ }
+
+hr .article-break { 
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray"
+}
+
+.content form label{
+    display: block;
+}
