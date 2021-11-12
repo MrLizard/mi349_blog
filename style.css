@@ -141,3 +141,24 @@ hr .article-break {
 #float-left p {
     margin: 0
 }
+
+@media (max-width: 400px) {
+    .tagline {
+        display: none;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    .article img {
+        width: 80%;
+        float: center;
+        padding: 0;
+        margin: 10px;
+    }
+
+    .article h2 {
+        padding-bottom: 30px;
+    }
+}
