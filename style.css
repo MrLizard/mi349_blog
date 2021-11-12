@@ -148,7 +148,7 @@ hr .article-break {
     }
 
     .footer {
-        position: relative;
+        display: none;
     }
 
     .article img {
